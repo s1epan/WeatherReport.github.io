@@ -1,0 +1,9 @@
+.content-right-bar {
+   width: 60vw;
+   height: 60vh;
+
+   border-radius: 25px;
+
+   background-color: grey;
+   opacity: .6;
+}
