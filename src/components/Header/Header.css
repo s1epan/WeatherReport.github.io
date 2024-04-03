@@ -1,0 +1,19 @@
+.header {
+   display: flex;
+   justify-content: left;
+   align-items: center;
+
+   width: 100vw;
+   height: 25px;
+
+   background: transparent;
+
+   margin: 10px;
+}
+
+.header-text {
+   font-weight: 600;
+   color: white;
+
+   display: inline;
+}
