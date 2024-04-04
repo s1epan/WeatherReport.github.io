@@ -4,11 +4,11 @@
    left: 0;
 
    display: flex;
-   justify-content: left;
+   justify-content: center;
    align-items: center;
 
    width: 100vw;
-   height: 25px;
+   height: 50px;
 
    background: transparent;
 
@@ -19,5 +19,40 @@
    font-weight: 600;
    color: white;
 
+   padding-right: 10px;
+
    display: inline;
+}
+
+.search  {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.search-input {
+   border: none;
+   border-top-left-radius: 12px;
+   border-bottom-left-radius: 12px;
+
+   padding: .5rem;
+}
+
+.search-btn {
+   height: 32px;
+   width: 40px;
+
+   border-top-right-radius: 12px;
+   border-bottom-right-radius: 12px;
+   border: none;
+
+   transition: all .3s;
+
+   padding: 0 5px;
+}
+
+.search-btn:hover {
+   background-color: rgb(73, 73, 73);
+   color: white;
+   cursor: pointer;
 }

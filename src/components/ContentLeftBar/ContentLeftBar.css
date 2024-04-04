@@ -14,22 +14,30 @@
 }
 
 .left-bar-elemets {
+   display: contents;
+
    height: 200px;
 }
 
 .left-bar-temp {
-   width: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   width: 100px;
 
    margin: 0 auto;
 
    font-size: 30px;
+   font-weight: 600;
+}
+
+.left-bar-location-data {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .left-bar-img {
-   font-size: 50px;
-
-   width: 130px;
-
-   margin: 0 auto;
-   padding-bottom: 50px;
+   width: 100px;
 }
