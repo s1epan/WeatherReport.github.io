@@ -29,6 +29,8 @@
    align-items: center;
 
    padding: 10px;
+
+   border-bottom: 1px solid black;
 }
 
 .forecast-temp {
@@ -37,6 +39,7 @@
 
 .forecast-time {
    font-weight: 600;
+   font-size: 20px;
 }
 
 .forecast {
