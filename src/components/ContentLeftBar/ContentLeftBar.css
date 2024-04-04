@@ -1,5 +1,7 @@
 .content-left-bar {
-   width: 25vw;
+   position: relative;
+
+   width: 20vw;
    height: 60vh;
 
    border-radius: 25px;
@@ -40,4 +42,16 @@
 
 .left-bar-img {
    width: 100px;
+}
+
+.current {
+   position: absolute;
+   top: 0;
+   left: 50%;
+   transform: translate(-50%, 0);
+
+   font-size: 50px;
+   font-weight: 600;
+
+   padding: 30px;
 }

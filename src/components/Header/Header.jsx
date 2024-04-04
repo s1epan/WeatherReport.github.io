@@ -24,7 +24,9 @@ function Header(props) {
         src="https://img.icons8.com/ios-filled/25/marker.png"
         alt="marker"
       />
-      <div className="header-text">{location ? location.tz_id : "NF"}</div>
+      <div className="header-text">
+        {location ? location.country : "NF"} | {location ? location.name : "NF"}
+      </div>
       <div className="search">
         <input
           type="text"

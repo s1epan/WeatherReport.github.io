@@ -13,6 +13,7 @@ function ContentLeftBar(props) {
 
   return (
     <div className="content-left-bar">
+      <div className="current">Current</div>
       <div className="left-bar-elemets">
         <img className="left-bar-img" src={data ? props.icon : ""} alt="" />
         <div className="left-bar-temp">{data ? data.feelslike_c : "NAN"}°С</div>

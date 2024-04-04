@@ -1,9 +1,52 @@
 .content-right-bar {
-   width: 60vw;
+   position: relative;
+
+   width: 55vw;
    height: 60vh;
 
    border-radius: 25px;
 
    background-color: grey;
    opacity: .6;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.right-bar-elemets {
+
+   display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+
+   /* padding: 10px; */
+   margin: 10px;
+}
+
+.forecast-elements {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+   padding: 10px;
+}
+
+.forecast-temp {
+   font-weight: 600;
+}
+
+.forecast-time {
+   font-weight: 600;
+}
+
+.forecast {
+   position: absolute;
+   top: 0;
+   left: 50%;
+   transform: translate(-50%, 0);
+
+   font-size: 50px;
+   font-weight: 600;
+
+   padding: 30px;
 }

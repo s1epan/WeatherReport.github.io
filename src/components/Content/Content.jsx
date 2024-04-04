@@ -13,14 +13,14 @@ function Content(props) {
   useEffect(() => {
     setLocation(props.data.location);
     setCurrent(props.data.current);
-    setForecast(props.data.forecast);
+    setForecast(props.forecast);
   });
 
   return (
     <div className="content">
       <Header data={location} func={props.func} />
       <ContentLeftBar data={current} data2={location} icon={props.icon} />
-      <ContentRightBar data={forecast} />
+      <ContentRightBar data3={forecast} />
     </div>
   );
 }

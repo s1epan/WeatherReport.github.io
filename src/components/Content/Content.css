@@ -6,7 +6,7 @@
    height: 100vh;
 
    display: grid;
-   grid-template-columns:30vw 65vw;
+   grid-template-columns:25vw 68vw;
    align-content: center;
    justify-content: space-evenly;
    justify-items: center;
