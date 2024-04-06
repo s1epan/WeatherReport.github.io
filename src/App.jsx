@@ -37,21 +37,21 @@ function App() {
     }).then((res) => setData4(res.data.map((el) => el.day)));
   }, []);
 
-  const getWeather = async (str) => {
+  const getWeather = async (str, lg) => {
     await axios({
-      url: `https://api.weatherapi.com/v1/forecast.json?key=023811ea79b1412382c150834232609&q=${str}`,
+      url: `https://api.weatherapi.com/v1/forecast.json?key=023811ea79b1412382c150834232609&q=${str}&lang=${lg}`,
     }).then((res) => setData(res.data));
 
     await axios({
-      url: `https://api.weatherapi.com/v1/forecast.json?key=023811ea79b1412382c150834232609&q=${str}`,
+      url: `https://api.weatherapi.com/v1/forecast.json?key=023811ea79b1412382c150834232609&q=${str}&lang=${lg}`,
     }).then((res) => setData2(res.data.current.condition.icon));
 
     await axios({
-      url: `https://api.weatherapi.com/v1/forecast.json?key=023811ea79b1412382c150834232609&q=${str}`,
+      url: `https://api.weatherapi.com/v1/forecast.json?key=023811ea79b1412382c150834232609&q=${str}&lang=${lg}`,
     }).then((res) => setData7(res.data.current.condition.text));
 
     await axios({
-      url: `https://api.weatherapi.com/v1/forecast.json?key=023811ea79b1412382c150834232609&q=${str}`,
+      url: `https://api.weatherapi.com/v1/forecast.json?key=023811ea79b1412382c150834232609&q=${str}&lang=${lg}`,
     }).then((res) => setData3(res.data.forecast.forecastday[0].hour));
   };
 

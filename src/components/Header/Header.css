@@ -56,3 +56,11 @@
    color: white;
    cursor: pointer;
 }
+
+.header-lg {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   padding-left: 10px;
+}

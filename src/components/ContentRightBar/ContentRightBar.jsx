@@ -19,6 +19,7 @@ function ContentRightBar(props) {
                 <p className="forecast-time">{el.time.slice(-5)}</p>
                 <img src={el.condition.icon} alt={el.condition.text} />
                 <p className="forecast-temp">{el.temp_c}°С</p>
+                <p className="forecast-text">{el.condition.text}</p>
               </div>
             ))
           : ""}

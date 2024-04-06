@@ -48,8 +48,13 @@
    left: 50%;
    transform: translate(-50%, 0);
 
-   font-size: 50px;
+   font-size: 35px;
    font-weight: 600;
 
-   padding: 30px;
+   padding: 10px;
+}
+
+.forecast-text {
+   margin: 0 auto;
+   font-size: 10px;
 }
