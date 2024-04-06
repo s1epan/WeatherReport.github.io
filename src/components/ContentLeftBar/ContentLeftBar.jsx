@@ -17,6 +17,7 @@ function ContentLeftBar(props) {
       <div className="left-bar-elemets">
         <img className="left-bar-img" src={data ? props.icon : ""} alt="" />
         <div className="left-bar-temp">{data ? data.feelslike_c : "NAN"}°С</div>
+        <div className="left-bar-text">{data ? props.text : ""}</div>
         <div className="left-bar-location-data">
           {data2 ? data2.name : "NF"} | {data2 ? data2.localtime : "NF"}
         </div>

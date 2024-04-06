@@ -1,4 +1,32 @@
 .content {
+   background: url('../../assets/fog.jpg') no-repeat;
+   background-size: 100%;
+
+   width: 100vw;
+   height: 100vh;
+
+   display: grid;
+   grid-template-columns:25vw 68vw;
+   align-content: center;
+   justify-content: space-evenly;
+   justify-items: center;
+}
+
+.contentRain {
+   background: url('../../assets/rain.gif') no-repeat;
+   background-size: 100%;
+
+   width: 100vw;
+   height: 100vh;
+
+   display: grid;
+   grid-template-columns:25vw 68vw;
+   align-content: center;
+   justify-content: space-evenly;
+   justify-items: center;
+}
+
+.contentSunny {
    background: url('../../assets/morning.jpg') no-repeat;
    background-size: 100%;
 
