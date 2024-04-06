@@ -32,6 +32,8 @@ function Content(props) {
         "Moderate or heavy rain shower" &&
         "Torrential rain shower"
           ? "contentRain"
+          : bg == "Sunny"
+          ? "contentSunny"
           : "content"
       }
       id="content"
