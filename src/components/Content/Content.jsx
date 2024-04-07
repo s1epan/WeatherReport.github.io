@@ -37,8 +37,6 @@ function Content(props) {
           : "content"
       }
       id="content"
-      // style={{ background: bg, backgroundSize: "100%" }}
-      // style={{ marginRight: spacing + "em" }}
     >
       <Header data={location} func={props.func} />
       <ContentLeftBar

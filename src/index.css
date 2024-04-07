@@ -6,5 +6,171 @@ body {
 
    overflow-x: hidden;
 
-   font-family: "Montserrat", sans-serif;;
+   font-family: "Montserrat", sans-serif;
 }
+
+/* xs */
+@media (max-width: 375px) {
+   .content {
+      max-width: 375px;
+
+      padding: 0;
+      margin: 0;
+
+      background-size: 400%;
+
+      display: flex;
+      flex-direction: column;
+   }
+
+   .contenRain {
+      max-width: 375px;
+
+      padding: 0;
+      margin: 0;
+   }
+
+   .contentSunny {
+      max-width: 375px;
+
+      padding: 0;
+      margin: 0;
+
+      background-size:400%;
+   }
+
+   .header {
+      max-width: 375px;
+
+      display: flex;
+      justify-content: center;
+
+      padding: 0;
+      margin: 0;
+
+      background-size: 400%;
+   }
+   .header-text {
+      width: 120px;
+
+      padding: 0;
+      margin: 0;
+
+      font-size: 12px;
+   }
+   .search-input {
+      width: 80px;
+   }
+
+   .content-left-bar {
+      margin: 80px auto 10px;
+
+      width: 70%;
+      height: 50%;
+   }
+
+   .current {
+      font-size: 20px;
+   }
+
+   .left-bar-img {
+      width: 75px;
+   }
+
+   .left-bar-text {
+      font-size: 20px;
+
+      margin: 0 auto;
+      width: 150px;
+   }
+
+   .left-bar-location-data {
+      font-size: 15px;
+   }
+
+   /* ========================= */
+
+   .content-right-bar {
+      margin: 0 auto 10px;
+      padding: 10px;
+
+      width: 90%;
+      height: 50%;
+   }
+
+   .right-bar-elemets {
+      width: 100%;
+
+      margin-top: 770px;
+
+      grid-template-columns: 100px 100px 100px;
+      
+      justify-content: center
+   }
+
+   .forecast-elements {
+      height: 100px;
+   }
+
+   .forecast-icon {
+      width: 50px;
+   }
+
+   .forecast-text {
+      font-size: 10px;
+   }
+
+   .forecast-time {
+      font-size: 15px;
+   }
+}
+
+/* xs */
+@media (max-width: 475px) {
+   .content {
+      max-width: 475px;
+   }
+
+   .header {
+      max-width: 475px;
+   }
+}
+
+/* sm */
+@media (max-width: 640px) {
+   .content {
+      max-width: 640px;
+   }
+
+   .header {
+      max-width: 640px;
+   }
+}
+
+/* md */
+@media (max-width: 768px) {
+   .content {
+      max-width: 768px;
+   }
+
+   .header {
+      max-width: 768px;
+   }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+   .content {
+      max-width: 1024px;
+   }
+
+   .header {
+      max-width: 1024px;
+   }
+}
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

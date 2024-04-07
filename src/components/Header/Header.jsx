@@ -237,12 +237,15 @@ function Header(props) {
             {boolean && language
               ? language.map((el) => (
                   <img
+                    className="lang-img"
                     width="30"
                     height="30"
                     src={el.src}
                     alt="usa"
                     key={el.key}
-                    onClick={() => props.func(search, el.index)}
+                    onClick={() =>
+                      props.func(search ? search : "London", el.index)
+                    }
                   />
                 ))
               : ""}
